@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sohan - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Sohan's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#firstSection">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection" id="firstSection">
+      <div class="leftSection">
+        Hi, My Name is <span class="purple">Sohan</span>
+        <div>and I am a <span id="element"></span></div>
+      </div>
+      <div class="rightSection">
+        <img src="IMG_20250621_171905539_HDR.jpg" alt="Developer">
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="IMG_20250621_171905539_HDR.jpg" alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum tempora a, excepturi quisquam aliquam nemo nesciunt enim sint quis similique.</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div id="skills" class="tab-contents active-tab">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                <li><span>Web Development</span><br>Website Development</li>
+                <li><span>Python Developer</span><br>Interface Development</li>
+              </ul>
+            </div>
+            <div id="education" class="tab-contents">
+              <ul>
+                <li><span>10th : 95%</span></li>
+                <li><span>12th : 90%</span></li>
+                <li><span>BTech (Computer Science & Engineering) : 8.3 CGPA</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="project">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+
+        <div class="card">
+          <h3>Hotel Management System</h3>
+          <p>Built with Python and MySQL including modules for booking, billing, reporting, and user authentication.</p>
+        </div>
+
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>Responsive website using HTML, CSS, JS featuring animations, smooth scroll, and tab navigation.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><strong>Email:</strong> sohansingh3878@gmail.com</p>
+        <p><strong>Phone:</strong> +91 7905466429</p>
+        <p><strong>Address:</strong> Prayagraj, India</p>
+        <div class="contact-links">
+          <a href="mailto:sohansingh3878@gmail.com">Email Me</a>
+          <a href="https://www.linkedin.com/in/sohan-singh-5bb709145/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/SohSingh" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
