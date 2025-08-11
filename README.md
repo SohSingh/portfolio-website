@@ -1,10 +1,16 @@
 # 🌐 Sohan Singh - Personal Portfolio Website
 
+## 🌍 Live Demo
+[🔗 Click here to visit my portfolio](https://sohsingh.github.io/portfolio-website/)
+
 This is my personal **portfolio website** showcasing my skills, projects, and contact information.  
 It’s designed to be **responsive**, **user-friendly**, and **visually appealing**, built with **HTML, CSS, and JavaScript**.
 
+---
+
 ## 📸 Preview
-![Portfolio Screenshot](preview.png)<img width="1880" height="816" alt="image" src="https://github.com/user-attachments/assets/6cb83b38-4f92-4faf-9de5-70b12c7ef436" />
+<img width="1895" height="840" alt="image" src="https://github.com/user-attachments/assets/6882fe35-87e6-4fbf-af7f-fde9f2085be8" />
+
 
 ---
 
@@ -34,7 +40,3 @@ portfolio/
 ├── script.js         # JavaScript for interactivity
 ├── IMG_*.jpg         # Profile images
 └── README.md         # Project documentation
-
-## 🌍 Live Demo
-[🔗 Click here to visit my portfolio][https://sohsingh.github.io/portfolio-website/]
-
