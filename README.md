@@ -36,5 +36,5 @@ portfolio/
 └── README.md         # Project documentation
 
 ## 🌍 Live Demo
-[🔗 Click here to visit my portfolio][(https://your-portfolio-link.com)](https://sohsingh.github.io/portfolio-website/)
+[🔗 Click here to visit my portfolio][(https://sohsingh.github.io/portfolio-website/)]
 
